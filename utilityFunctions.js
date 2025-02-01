@@ -15,3 +15,7 @@ function debounce(fn, delay) {
     timeout = setTimeout(() => fn.apply(this, args), delay);
   };
 }
+
+function sum(a, b) {
+  return a + b;
+}
