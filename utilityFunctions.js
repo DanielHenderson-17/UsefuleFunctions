@@ -23,3 +23,7 @@ function sum(a, b) {
 function findMax(arr) {
   return Math.max(...arr);
 }
+
+function formatCurrency(amount) {
+  return '$' + amount.toFixed(2);
+}
