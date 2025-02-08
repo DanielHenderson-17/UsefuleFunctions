@@ -27,3 +27,7 @@ function findMax(arr) {
 function formatCurrency(amount) {
   return '$' + amount.toFixed(2);
 }
+
+function countVowels(str) {
+  return (str.match(/[aeiou]/gi) || []).length;
+}
