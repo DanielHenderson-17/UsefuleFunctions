@@ -40,3 +40,7 @@ function isPalindrome(str) {
 function generateSlug(str) {
   return str.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
 }
+
+function mergeArrays(a, b) {
+  return [...new Set([...a, ...b])];
+}
