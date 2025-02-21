@@ -44,3 +44,7 @@ function generateSlug(str) {
 function mergeArrays(a, b) {
   return [...new Set([...a, ...b])];
 }
+
+function truncate(str, length) {
+  return str.length > length ? str.substring(0, length) + '...' : str;
+}
