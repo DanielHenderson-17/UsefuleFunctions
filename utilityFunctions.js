@@ -52,3 +52,7 @@ function truncate(str, length) {
 function getInitials(name) {
   return name.split(' ').map(word => word[0].toUpperCase()).join('');
 }
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
