@@ -56,3 +56,7 @@ function getInitials(name) {
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+function clamp(num, min, max) {
+  return Math.min(Math.max(num, min), max);
+}
