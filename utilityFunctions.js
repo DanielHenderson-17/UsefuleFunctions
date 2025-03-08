@@ -60,3 +60,6 @@ function delay(ms) {
 function clamp(num, min, max) {
   return Math.min(Math.max(num, min), max);
 }
+
+function isNumeric(val) {
+}
