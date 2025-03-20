@@ -5,3 +5,4 @@ function isPrime(num) {
   }
   return true;
 }
+2;
