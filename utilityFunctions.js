@@ -63,3 +63,7 @@ function clamp(num, min, max) {
 
 function isNumeric(val) {
 }
+
+function flattenDeep(arr) {
+  return arr.flat(Infinity);
+}
