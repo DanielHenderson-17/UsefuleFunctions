@@ -67,3 +67,7 @@ function isNumeric(val) {
 function flattenDeep(arr) {
   return arr.flat(Infinity);
 }
+
+function escapeHtml(str) {
+  return str.replace(/[&<>]/g, match =>
+    ({
